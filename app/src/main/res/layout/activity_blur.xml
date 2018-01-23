@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.json.itdaily.activity.BlurActivity">
+
+    <Button
+        android:id="@+id/blurbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击虚化" />
+
+    <ImageView
+        android:id="@+id/blurimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/blurbut"
+        android:src="@mipmap/yan" />
+
+
+</RelativeLayout>

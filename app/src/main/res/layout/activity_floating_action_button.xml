@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.json.itdaily.activity.FloatingActionButtonActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingactionbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="50dp"
+        android:backgroundTint="#00ff00"
+        android:src="@mipmap/ic_launcher"
+        android:text="Drawlayout"
+        app:rippleColor="#ff0000" />
+
+</LinearLayout>

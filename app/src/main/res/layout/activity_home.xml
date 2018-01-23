@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.json.itdaily.activity.HomeActivity">
+
+        <Button
+            android:id="@+id/design_drawerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drawlayout" />
+
+        <Button
+            android:id="@+id/design_floatingactionbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FloatingActionButton" />
+
+
+        <Button
+            android:id="@+id/design_swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SwipeRefreshLayout" />
+
+        <Button
+            android:id="@+id/design_cf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CoordinatorSnackbar" />
+
+        <Button
+            android:id="@+id/design_ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CoordinatorAppBar" />
+
+        <Button
+            android:id="@+id/design_ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AppBarCollapsingToolbar" />
+
+        <Button
+            android:id="@+id/blur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="背景虚化" />
+
+        <Button
+            android:id="@+id/mzbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="魅族banner" />
+
+        <Button
+            android:id="@+id/rxjava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rxjava+Retrofit" />
+
+        <Button
+            android:id="@+id/cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cache" />
+
+        <Button
+            android:id="@+id/map_gaode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高德地图" />
+
+        <Button
+            android:id="@+id/getMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取全局的音乐" />
+
+
+        <Button
+            android:id="@+id/Realm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realm数据库" />
+
+
+    </LinearLayout>
+</ScrollView>
